@@ -1,0 +1,58 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity 2_button_input is
+	port (
+			CLK : in std_logic;
+			PB : in std_logic;
+			RST_B : in std_logic;
+			Output : out std_logic_vector(0 to 1)
+	);
+end 2_button_input;
+
+architecture behavior of 2_button_input is
+	type state_type is (S0,S1,S2);
+	signal state_PB : state_type;
+	signal state_RST : state_type;
+	variable output_counter : integer := 0;
+	
+	begin
+	process(CLK)
+		begin
+			if rising_edge(CLK) then
+				case state_PB is
+					when S0 =>
+						if PB = '0' then
+							state_PB <= S1;
+						end if;
+					when S1 =>
+						if PB = '1' then
+							if output_counter = 3 then
+								output_counter := 0;
+							end if;
+							with output_counter select
+								output <= "00" when 0;
+											 "01" when 1;
+											 "10" when 2;
+											 "11" when 3;
+							state_PB <= S0;
+						end if;
+					when others => null;
+				end case;
+				
+				case state_RST is
+					when S0 =>
+						if RST_B = '0' then
+							state_RST <= S1;
+						end if;
+					when S1 =>
+						if RST_B = '1' then
+							output_counter := 0;
+							output <= "00";
+						end if;
+					when others => null;
+				end case;
+			end if;		
+	end process;
+end behavior;
+	

@@ -1,0 +1,50 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity PWM_LED is
+	port (
+			 CLK : in std_logic;
+			 Color_Data_in : in std_logic_vector(0 to 23);
+			 Data_out : out std_logic
+		);
+end PWM_LED;
+
+architecture behavior of PWM_LED is
+	-- constant number of LED
+	constant nLED : integer := 1;
+	-- constant time variable
+	constant fpga_clk : integer := 50_000_000;
+	constant T0H : time := 360 ns;
+	constant T0L : time := 800 ns;
+	constant T1H : time := 700 ns;
+	constant T1L : time := 600 ns;
+	constant Reset : time := 50 us;
+	
+	constant time_per_clk : time := (1 sec/fpga_clk);
+	
+	constant T0H_per_clk : integer := (T0H/time_per_clk); -- 20 cycle
+	constant T0L_per_clk : integer := (T0L/time_per_clk); -- 40 cycle
+	constant T1H_per_clk : integer := (T1H/time_per_clk); -- 35 cycle
+	constant T1L_per_clk : integer := (T1L/time_per_clk); -- 30 cycle
+	constant Reset_per_clk : integer := (Reset/time_per_clk); --2550 cycle
+	
+	 --init signal variable
+	type state_type is(S0,S1,S2);
+	
+	begin
+		process(CLK)
+			--count clk for pb
+			variable count_clk : integer := 0;
+			
+			variable send_color_1bit_is_done : bit := '0';
+			variable send_color_24bit_is_done : bit := '0';
+		
+			variable send_bit_status : state_type := S2;
+			
+			begin
+				if rising_edge(CLK) then
+					count_clk := count_clk + 1;
+					
+				end if;
+		end process;
+end behavior;

@@ -1,0 +1,41 @@
+C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Lab1_2_com.vhd {1 {vcom -work work -2002 -explicit C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Lab1_2_com.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Lab1_2_com
+-- Compiling architecture behavior of Lab1_2_com
+
+} {} {}} C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/two_button_input.vhd {1 {vcom -work work -2002 -explicit C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/two_button_input.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity two_button_input
+-- Compiling architecture behavior of two_button_input
+
+} {} {}} C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/tb_Lab1_2_com.vhd {1 {vcom -work work -2002 -explicit C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/tb_Lab1_2_com.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_Lab1_2_com
+-- Compiling architecture testbench of tb_Lab1_2_com
+
+} {} {}} C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/PWM_LED.vhd {1 {vcom -work work -2002 -explicit C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/PWM_LED.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PWM_LED
+-- Compiling architecture behavior of PWM_LED
+
+} {} {}} C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Generate_data.vhd {1 {vcom -work work -2002 -explicit C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Generate_data.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Generate_data
+-- Compiling architecture behavior of Generate_data
+
+} {} {}}

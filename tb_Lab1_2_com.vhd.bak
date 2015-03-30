@@ -1,0 +1,55 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity tb_Lab1_2_com is
+end tb_Lab1_2_com;
+
+architecture testbench of tb_Lab1_2_com is
+	component Lab1_2_com is
+		port (
+				CLK	 : in std_logic;
+				RST_B  : in std_logic;
+				PB 	 : in std_logic;
+				Output :out std_logic_vector(0 to 1)
+				);	
+	end component;
+	
+	signal t_CLK	 : in std_logic;
+	signal t_RST_B  : in std_logic;
+	signal t_PB		 : in std_logic;
+	signal t_Output : out std_logic_vector(0 to 1);
+	
+begin
+	DUT: Lab1_2_com port map(CLK => t_CLK,RST_B => T_RST_B,PB => t_PB => Output => t_Output);
+	process
+		begin
+			t_CLK <= '0';
+			wait for 10 ns;
+			t_CLK <= '1';
+			wait for 10 ns;
+	end process;
+	
+	process
+		variable state : natural := 0;
+	begin
+		t_RST_B <= '1';
+		wait for 100 ns;
+		t_PB <= '1';
+		wait for 70 ns;
+		
+		case state is
+			when 0 =>
+				t_PB <= '0'; wait for 100 ns;
+				t_PB <= '1'; wait for 100 ns;
+				state := 1;
+			when 1 =>
+				t_PB <= '0'; wait for 100 ns;
+				t_PB <= '1'; wait for 100 ns;
+				state := 2;
+			when 2 =>
+				t_RST_B <= '0'; wait for 100 ns;
+				t_RST_B <= '1'; wait for 100 ns;
+				state := 3;
+			when others => null;
+		end case;
+	end testbench;

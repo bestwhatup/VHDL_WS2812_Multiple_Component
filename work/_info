@@ -1,0 +1,180 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Chawatvish\Documents\Quartus Project\Lab1.2
+Egenerate_data
+Z0 w1424929300
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Chawatvish\Documents\GitHub\VHDL_WS2812_Multiple_Component
+Z4 8C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Generate_data.vhd
+Z5 FC:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Generate_data.vhd
+l0
+L4
+VDBdT?AR8^B@3jl8RSATaW3
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1427729720.131000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Generate_data.vhd|
+Z9 !s107 C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Generate_data.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 z0?OO@22J;7FLKnjI?j5U0
+!i10b 1
+Abehavior
+R1
+R2
+DEx4 work 13 generate_data 0 22 DBdT?AR8^B@3jl8RSATaW3
+l16
+L12
+VAz:oeD>CGl:d2DG`Bc@_30
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 >oWnj7182W>_<6R5A1?oE1
+!i10b 1
+Elab1_2_com
+Z12 w1427642547
+R1
+R2
+R3
+Z13 8C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Lab1_2_com.vhd
+Z14 FC:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Lab1_2_com.vhd
+l0
+L4
+Va]59X;WU11:dG3?00EES?2
+R6
+32
+Z15 !s108 1427729720.202000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Lab1_2_com.vhd|
+Z17 !s107 C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/Lab1_2_com.vhd|
+R10
+R11
+!s100 P3lk^CTA5e3Y1h?;:[JBn3
+!i10b 1
+Abehavior
+R1
+R2
+DEx4 work 10 lab1_2_com 0 22 a]59X;WU11:dG3?00EES?2
+l45
+L14
+V8T5b8aLWaTeTUOgBYGe7K3
+R6
+32
+R15
+R16
+R17
+R10
+R11
+!s100 YgH_OhQBo]7cL?PkQc_]60
+!i10b 1
+Epwm_led
+Z18 w1427726455
+R1
+R2
+R3
+Z19 8C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/PWM_LED.vhd
+Z20 FC:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/PWM_LED.vhd
+l0
+L4
+VbnHjTk]kL8m;WQ9fXKC>91
+R6
+32
+Z21 !s108 1427729720.269000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/PWM_LED.vhd|
+Z23 !s107 C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/PWM_LED.vhd|
+R10
+R11
+!s100 7hzl80ALj1EYS=GP4YBZE1
+!i10b 1
+Abehavior
+R1
+R2
+DEx4 work 7 pwm_led 0 22 bnHjTk]kL8m;WQ9fXKC>91
+l33
+L13
+V=F?JlZ`4c@:X0:F;>N0]X3
+R6
+32
+R21
+R22
+R23
+R10
+R11
+!s100 Z=_I3>RnQPf:D3bg>7I^00
+!i10b 1
+Etb_lab1_2_com
+Z24 w1427727799
+R1
+R2
+R3
+Z25 8C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/tb_Lab1_2_com.vhd
+Z26 FC:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/tb_Lab1_2_com.vhd
+l0
+L4
+VCi_WE^Wg=Z9iTmdX?8Ddd2
+R6
+32
+Z27 !s108 1427729720.331000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/tb_Lab1_2_com.vhd|
+Z29 !s107 C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/tb_Lab1_2_com.vhd|
+R10
+R11
+!s100 WId7HKhnE5?Koh4F@D7[D2
+!i10b 1
+Atestbench
+R1
+R2
+DEx4 work 13 tb_lab1_2_com 0 22 Ci_WE^Wg=Z9iTmdX?8Ddd2
+l24
+L7
+V]7H:bTHeO5GEdGB?CzKEG3
+R6
+32
+R27
+R28
+R29
+R10
+R11
+!s100 PaUGSf7aNCBnNi72jc`_k1
+!i10b 1
+Etwo_button_input
+Z30 w1427724660
+R1
+R2
+R3
+Z31 8C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/two_button_input.vhd
+Z32 FC:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/two_button_input.vhd
+l0
+L4
+VRUY;6C@S5O9OzYX8:7YTZ2
+!s100 D0B::ZLB3U<_b1VTVJ_4A0
+R6
+32
+!i10b 1
+Z33 !s108 1427729720.409000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/two_button_input.vhd|
+Z35 !s107 C:/Users/Chawatvish/Documents/GitHub/VHDL_WS2812_Multiple_Component/two_button_input.vhd|
+R10
+R11
+Abehavior
+R1
+R2
+DEx4 work 16 two_button_input 0 22 RUY;6C@S5O9OzYX8:7YTZ2
+l19
+L13
+VJ4]<DLhfRUi`CB[QR0fn90
+!s100 V:A8bjPZAITUC0Ydjcg^]0
+R6
+32
+!i10b 1
+R33
+R34
+R35
+R10
+R11

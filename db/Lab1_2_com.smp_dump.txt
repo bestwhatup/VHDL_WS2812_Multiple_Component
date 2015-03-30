@@ -1,0 +1,6 @@
+
+State Machine - |Lab1_2_com|PWM_LED:pwm_led_component|send_bit_status
+Name send_bit_status.S2 send_bit_status.S1 send_bit_status.S0 
+send_bit_status.S0 0 0 0 
+send_bit_status.S1 0 1 1 
+send_bit_status.S2 1 0 1 
